@@ -1,0 +1,32 @@
+{
+    "name": "itwmw/engine-route-ide-helper",
+    "description": "自动生成控制器所对应的URI",
+    "authors": [
+        {
+            "name": "虞灪",
+            "email": "995645888@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Itwmw\\Engine\\Route\\Ide\\Helper\\": "src"
+        }
+    },
+    "license": "Apache-2.0",
+    "require": {
+        "php": "^7.2.5|^8.0",
+        "symfony/console": "^5.2",
+        "ergebnis/classy": "^1.1",
+        "symfony/finder": "^5.2|^4.0",
+        "w7/rangine": "^2.4"
+    },
+    "extra": {
+        "rangine": {
+            "providers": [
+                "Itwmw\\Engine\\Route\\Ide\\Helper\\RangineProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
