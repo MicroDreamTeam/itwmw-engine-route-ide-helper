@@ -14,7 +14,7 @@ class RangineProvider extends ProviderAbstract
      */
     public function register()
     {
-        $application = $this->getContainer()->singleton(Application::class);
+        $application = $this->getContainer()->get(Application::class);
         $application->add(new IdeHelperCommand());
     }
 
