@@ -111,7 +111,6 @@ class RouteUriGenerate
                 $commonName = '';
                 echo $doc;
                 if (preg_match('/\/\*\*([\s\S]*?)\*/', $doc, $match) > 0) {
-                    var_dump($match);
                     $commonName = $match[1];
                     $commonName = trim(str_replace("\n", '', $commonName));
                 }

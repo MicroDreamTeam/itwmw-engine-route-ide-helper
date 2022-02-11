@@ -14,10 +14,10 @@
     },
     "license": "Apache-2.0",
     "require": {
-        "symfony/console": "^5.2",
-        "ergebnis/classy": "^1.1",
-        "symfony/finder": "^5.2|^4.0",
-        "w7/rangine": "^2.4"
+        "symfony/console": ">=5.2",
+        "ergebnis/classy": ">=1.1",
+        "symfony/finder": ">=4.0",
+        "w7/rangine": "^3.0"
     },
     "extra": {
         "rangine": {
